@@ -1,6 +1,49 @@
-*.class
+# Maven #
+target/
+*.log
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# perso #
+bootCounter.agent
+conf.agent
+Hornetq.DLQ*
+
+# Eclipse #
+.project
+.classpath
+.settings
+.settings/*
+.externalToolBuilders
+.externalToolBuilders/*
+
+# IntelliJ IDEA #
+out/
+!.idea/
+.idea/*
+.idea/dataSources.xml
+!.idea/runConfigurations/
+*.iml
+*.ipr
+*.iws
+
+# EVEREST #
+/classes
+/EverestESB/esb-core/download
+/EverestBCS/src/main/webapp/css
+
+# EverestGui #
+/ReferentielAM/eclipse
+/ReferentielAM/lib
+/ReferentielAM/logs
+/ReferentielAM/modules
+/ReferentielAM/nbproject
+/ReferentielAM/test-result
+/ReferentielAM/tmp
+/ReferentielAM/cobertura.ser
+/ReferentielAM/ReferentielAM.ipr
+/ReferentielAM/ReferentielAM.iws
+/ReferentielAM/precompiled
+
+# miscellaneous
+/download
+humans.txt
+test-output
